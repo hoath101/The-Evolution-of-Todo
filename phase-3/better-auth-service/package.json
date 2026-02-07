@@ -1,0 +1,24 @@
+{
+  "name": "better-auth-service",
+  "version": "1.0.0",
+  "description": "Standalone Better Auth service for Todo AI Chatbot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "npx better-auth migrate"
+  },
+  "dependencies": {
+    "better-auth": "^1.4.18",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "pg": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "@types/pg": "^8.16.0",
+    "nodemon": "^3.0.1"
+  }
+}
